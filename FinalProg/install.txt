@@ -1,0 +1,14 @@
+Apache Config httpd.conf - AllowOverride All (requireall granted?)
+xampp/apache/conf/extra/httpd-vhosts.conf
+<VirtualHost *:80>
+    ServerAdmin webmaster@dummy-host2.example.com
+    DocumentRoot "C:/xampp/htdocs/Prog3FinalKiosco/public"
+    ServerName slim4_finales
+    ErrorLog "logs/localhost-error.log"
+    CustomLog "logs/localhost-access.log" common
+</VirtualHost>
+
+windows/system32/drivers/etc/hosts     127.0.0.1       slim4_finales abrir con vs
+
+copiar composer.json -> composer install
+copiar htaccess
